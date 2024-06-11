@@ -528,7 +528,7 @@ Shopify.routes.root = "/";</script>
 <script id="web-pixels-manager-setup">(function e(e,n,a,t,r){var o="function"==typeof BigInt&&-1!==BigInt.toString().indexOf("[native code]")?"modern":"legacy";window.Shopify=window.Shopify||{};var i=window.Shopify;i.analytics=i.analytics||{};var s=i.analytics;s.replayQueue=[],s.publish=function(e,n,a){return s.replayQueue.push([e,n,a]),!0};try{self.performance.mark("wpm:start")}catch(e){}var l=[a,"/wpm","/b",r,o.substring(0,1),".js"].join("");!function(e){var n=e.src,a=e.async,t=void 0===a||a,r=e.onload,o=e.onerror,i=document.createElement("script"),s=document.head,l=document.body;i.async=t,i.src=n,r&&i.addEventListener("load",r),o&&i.addEventListener("error",o),s?s.appendChild(i):l?l.appendChild(i):console.error("Did not find a head or body element to append the script")}({src:l,async:!0,onload:function(){var a=window.webPixelsManager.init(e);n(a);var t=window.Shopify.analytics;t.replayQueue.forEach((function(e){var n=e[0],t=e[1],r=e[2];a.publishCustomEvent(n,t,r)})),t.replayQueue=[],t.publish=a.publishCustomEvent,t.visitor=a.visitor},onerror:function(){var n=e.storefrontBaseUrl.replace(/\/$/,""),a="".concat(n,"/.well-known/shopify/monorail/unstable/produce_batch"),r=JSON.stringify({metadata:{event_sent_at_ms:(new Date).getTime()},events:[{schema_id:"web_pixels_manager_load/2.0",payload:{version:t||"latest",page_url:self.location.href,status:"failed",error_msg:"".concat(l," has failed to load")},metadata:{event_created_at_ms:(new Date).getTime()}}]});try{if(self.navigator.sendBeacon.bind(self.navigator)(a,r))return!0}catch(e){}var o=new XMLHttpRequest;try{return o.open("POST",a,!0),o.setRequestHeader("Content-Type","text/plain"),o.send(r),!0}catch(e){console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging a load error.")}return!1}})})({shopId: 65512603816,storefrontBaseUrl: "https://wtch.com",cdnBaseUrl: "https://h5x89nko1oh7deba-65512603816.shopifypreview.com/cdn",surface: "storefront-renderer",enabledBetaFlags: [],webPixelsConfigList: [{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"063","apiClientId":"shopify-pixel","type":"APP","purposes":["ANALYTICS"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"063","apiClientId":"shopify-pixel","type":"CUSTOM","purposes":["ANALYTICS"]}],initData: {"cart":null,"checkout":null,"customer":null,"productVariants":[{"id":"47827841745064","image":{"src":"\/\/h5x89nko1oh7deba-65512603816.shopifypreview.com\/cdn\/shop\/files\/4.jpg?v=1713758274"},"price":{"amount":0.0,"currencyCode":"IDR"},"product":{"id":"8338632343720","title":"BIRUSLOT \u269c\ufe0f Link Situs Slot Gacor Biruslot Gampang Menang Maxwin Setiap Hari","untranslatedTitle":"BIRUSLOT \u269c\ufe0f Link Situs Slot Gacor Biruslot Gampang Menang Maxwin Setiap Hari","url":"\/products\/biruslot","vendor":"MAHKOTA338","type":""},"sku":"","title":"Default Title","untranslatedTitle":"Default Title"}]},},function pageEvents(webPixelsManagerAPI) {webPixelsManagerAPI.publish("page_viewed");webPixelsManagerAPI.publish("product_viewed", {"productVariant":{"id":"47827841745064","image":{"src":"\/\/h5x89nko1oh7deba-65512603816.shopifypreview.com\/cdn\/shop\/files\/4.jpg?v=1713758274"},"price":{"amount":0.0,"currencyCode":"IDR"},"product":{"id":"8338632343720","title":"BIRUSLOT \u269c\ufe0f Link Situs Slot Gacor Biruslot Gampang Menang Maxwin Setiap Hari","untranslatedTitle":"BIRUSLOT \u269c\ufe0f Link Situs Slot Gacor Biruslot Gampang Menang Maxwin Setiap Hari","url":"\/products\/biruslot","vendor":"MAHKOTA338","type":""},"sku":"","title":"Default Title","untranslatedTitle":"Default Title"}});},"https://h5x89nko1oh7deba-65512603816.shopifypreview.com/cdn","2ec17aa44ca9b79ff0391be30ff39d94244faa47","9269d539web298707p44efdef0m24854cb4",);</script>  <script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
 window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
 window.ShopifyAnalytics.meta.currency = 'IDR';
-var meta = {"product":{"id":8338632343720,"gid":"gid:\/\/shopify\/Product\/8338632343720","vendor":"MAHKOTA338","type":"","variants":[{"id":47827841745064,"price":0,"name":"MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Harip Hari","public_title":null,"sku":""}]},"page":{"pageType":"product","resourceType":"product","resourceId":8338632343720}};
+var meta = {"product":{"id":8338632343720,"gid":"gid:\/\/shopify\/Product\/8338632343720","vendor":"MAHKOTA338","type":"","variants":[{"id":47827841745064,"price":0,"name":"MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Hari","public_title":null,"sku":""}]},"page":{"pageType":"product","resourceType":"product","resourceId":8338632343720}};
 for (var attr in meta) {
   window.ShopifyAnalytics.meta[attr] = meta[attr];
 }</script>
@@ -683,8 +683,8 @@ for (var attr in meta) {
       var token = match? match[1]: undefined;
       if (!hasLoggedConversion(token)) {
         setCookieIfConversion(token);
-        window.ShopifyAnalytics.lib.track("Viewed Product",{"currency":"IDR","variantId":47827841745064,"productId":8338632343720,"productGid":"gid:\/\/shopify\/Product\/8338632343720","name":"MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Harip Hari","price":"0.00","sku":"","brand":"MAHKOTA338","variant":null,"category":"","nonInteraction":true});
-      window.ShopifyAnalytics.lib.track("monorail:\/\/trekkie_storefront_viewed_product\/1.1",{"currency":"IDR","variantId":47827841745064,"productId":8338632343720,"productGid":"gid:\/\/shopify\/Product\/8338632343720","name":"MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Harip Hari","price":"0.00","sku":"","brand":"MAHKOTA338","variant":null,"category":"","nonInteraction":true,"referer":"https:\/\/h5x89nko1oh7deba-65512603816.shopifypreview.com\/products_preview?preview_key=127e45ae6744726be602f9e5975ac322"});
+        window.ShopifyAnalytics.lib.track("Viewed Product",{"currency":"IDR","variantId":47827841745064,"productId":8338632343720,"productGid":"gid:\/\/shopify\/Product\/8338632343720","name":"MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Hari","price":"0.00","sku":"","brand":"MAHKOTA338","variant":null,"category":"","nonInteraction":true});
+      window.ShopifyAnalytics.lib.track("monorail:\/\/trekkie_storefront_viewed_product\/1.1",{"currency":"IDR","variantId":47827841745064,"productId":8338632343720,"productGid":"gid:\/\/shopify\/Product\/8338632343720","name":"MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Hari","price":"0.00","sku":"","brand":"MAHKOTA338","variant":null,"category":"","nonInteraction":true,"referer":"https:\/\/h5x89nko1oh7deba-65512603816.shopifypreview.com\/products_preview?preview_key=127e45ae6744726be602f9e5975ac322"});
       }
     });
 
@@ -1580,10 +1580,10 @@ for (var attr in meta) {
                   class="product__text inline-richtext"
                   
                 >MAHKOTA338</p><div class="product__title" >
-                  <h1>MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Harip Hari</h1>
+                  <h1>MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Hari</h1>
                   <a href="/products/biruslot" class="product__title">
                     <h2 class="h1">
-                      MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Harip Hari
+                      MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Hari
                     </h2>
                   </a>
                 </div><div class="no-js-hidden" id="price-template--17122591768744__main" role="status" >
@@ -1688,7 +1688,7 @@ for (var attr in meta) {
                   <div class="price-per-item__container">
                     <quantity-input class="quantity" data-url="/products/biruslot" data-section="template--17122591768744__main">
                       <button class="quantity__button no-js-hidden" name="minus" type="button">
-                        <span class="visually-hidden">Decrease quantity for MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Harip Hari</span>
+                        <span class="visually-hidden">Decrease quantity for MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Hari</span>
                         <svg
   xmlns="http://www.w3.org/2000/svg"
   aria-hidden="true"
@@ -1715,7 +1715,7 @@ for (var attr in meta) {
                         form="product-form-template--17122591768744__main"
                       >
                       <button class="quantity__button no-js-hidden" name="plus" type="button">
-                        <span class="visually-hidden">Increase quantity for MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Harip Hari</span>
+                        <span class="visually-hidden">Increase quantity for MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Hari</span>
                         <svg
   xmlns="http://www.w3.org/2000/svg"
   aria-hidden="true"
@@ -1965,7 +1965,7 @@ for (var attr in meta) {
     srcset="//s12.gifyu.com/images/SYjTg.jpg?v=1713758274&width=550 550w,//s12.gifyu.com/images/SYjTg.jpg?v=1713758274 1080w"
     sizes="(min-width: 750px) calc(100vw - 22rem), 1100px"
     src="//s12.gifyu.com/images/SYjTg.jpg?v=1713758274&width=1445"
-    alt="MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Harip Hari"
+    alt="MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Hari"
     loading="lazy"
     width="1100"
     height="1100"
@@ -2004,7 +2004,7 @@ for (var attr in meta) {
       {
         "@context": "http://schema.org/",
         "@type": "Product",
-        "name": "MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Harip Hari",
+        "name": "MAHKOTA338 - Kumpulan Situs Slot Gacor Jackpot Terbesar Setiap Hari",
         "url": "https:\/\/h5x89nko1oh7deba-65512603816.shopifypreview.com\/products\/biruslot",
         "image": [
             "https:\/\/h5x89nko1oh7deba-65512603816.shopifypreview.com\/cdn\/shop\/files\/4.jpg?v=1713758274\u0026width=1920"
